@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri';
+}
+
+*::selection {
+    display: none;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#one,
+#two,
+#three {
+    width: 8vw;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: yellow;
+    margin-top: 600px;
+}
+
+#selectedimages {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: fixed;
+}
+
+#imgcomp>img {
+    width: 150px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#imgyou>img {
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+div {
+    display: inline-block;
+}
+
+#imgyoucontainer {
+    margin-right: 200px;
+}
+
+#imgyou,
+#imgcomp {
+    margin-top: 80px;
+}
+
+#youscore {
+    margin-bottom: 10px;
+}
+
+#result {
+    font-size: 100px;
+}
+
+#selectedimages>img {
+    width: 10vw;
+}
+
+#imgcomp>img {
+    width: 15vw;
+}
+
+#imgyou>img {
+    width: 15vw;
+}
+
+#imgyou {
+    margin: 0;
+}
+
+#creator {
+    display: inline;
+}
+
+img [src="1.png"] {
+    margin-right: 20px;
+}
+
+b {
+    display: block;
+    font-size: 30px;
+}
+
+#reset {
+    height: max-content;
+    position: relative;
+    top: 630px;
+    left: 30px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    font-weight: 900;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+#reset:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#reset:active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
